@@ -1,0 +1,6 @@
+vhdl isim_temp "CONV_PKG.VHD"
+vhdl isim_temp "add1b.vhd"
+vhdl isim_temp "HORLOGE.VHD"
+vhdl isim_temp "GENE.VHD"
+vhdl isim_temp "add4b.vhd"
+vhdl isim_temp "test4b_gene.vhd"

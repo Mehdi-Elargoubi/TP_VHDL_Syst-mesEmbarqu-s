@@ -1,0 +1,6 @@
+vhdl work "CONV_PKG.VHD"
+vhdl work "add1b.vhd"
+vhdl work "HORLOGE.VHD"
+vhdl work "GENE.VHD"
+vhdl work "add4b.vhd"
+vhdl work "test4b_gene.vhd"

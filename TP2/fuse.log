@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/PartageVM/TP_Elargoubi/TP2/test4b_gene_isim_beh.exe -prj /home/ise/PartageVM/TP_Elargoubi/TP2/test4b_gene_beh.prj work.test4b_gene 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/CONV_PKG.VHD" into library work
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/add1b.vhd" into library work
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/HORLOGE.VHD" into library work
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/GENE.VHD" into library work
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/add4b.vhd" into library work
+Parsing VHDL file "/home/ise/PartageVM/TP_Elargoubi/TP2/test4b_gene.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95476 KB
+Fuse CPU Usage: 1740 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package conv_pkg
+Compiling architecture behavioral of entity add1b [\add1b(20000)\]
+Compiling architecture behavioral of entity add4b [add4b_default]
+Compiling architecture arch_gene of entity gene [\gene(0,15,1,20000)\]
+Compiling architecture a_clock of entity CLOCK [\CLOCK(60000)\]
+Compiling architecture behavior of entity test4b_gene
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable /home/ise/PartageVM/TP_Elargoubi/TP2/test4b_gene_isim_beh.exe
+Fuse Memory Usage: 399012 KB
+Fuse CPU Usage: 1790 ms
+GCC CPU Usage: 220 ms
